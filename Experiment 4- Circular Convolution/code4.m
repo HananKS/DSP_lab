@@ -17,7 +17,7 @@ x= input(" enter the sequence");
 h= input(" enter the sequence");
 N= max(length(x),length(h));
 y= zeros(1,N);
-for n=1:N;
+for n=1:N
     h_new= circshift(h,n-1);
     y(n)=sum(x.*h_new);
 end
