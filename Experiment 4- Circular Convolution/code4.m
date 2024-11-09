@@ -38,6 +38,6 @@ for n=1:N
     h_k= circshift(h,n-1);
     h_n(:,n)=h_k;
 end
-y=h_n*x';
+y=1h_n*x';
 disp("circular cov using matrix method");
-disp(y)
+disp(y1)
